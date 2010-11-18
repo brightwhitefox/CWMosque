@@ -1,0 +1,128 @@
+{% load pages_tags mezzanine_tags %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google-site-verification" content="TcJ1X2J5FL0j_8-d4S6cd21KqgpjezkM1UEMWNb8UAw" />
+ <title>Welcome &mdash; Central Mosque Wembley</title>
+    <!-- 960 Grid System -->
+    <link rel="stylesheet" href="{{ MEDIA_URL }}css/960/960.css" type="text/css" />
+    <!-- Reset (from 960.gs) -->
+    <link rel="stylesheet" href="{{ MEDIA_URL }}css/960/reset.css" type="text/css" />
+
+    <!-- Write your customer css rules here. -->
+    <!--<link rel="stylesheet" href="{{ MEDIA_URL }}css/global.css" type="text/css" />-->
+    <link rel="stylesheet" href="{{ MEDIA_URL }}css/main.css" type="text/css" />
+    {% block extra_head %}{% endblock %}
+    
+</head>
+<body id="{% block body_id %}{% endblock %}" class="main">
+<center>
+    <div class="main">
+        <div class="topBanner"><img src="/site_media/images/top.jpg"/><img src="/site_media/images/step.gif" style="position:absolute; margin-top:177px; margin-left:-220px; "  alt="" /><img src="/site_media/images/top-right.png" class="pngimg" style="position:absolute; z-index:8; margin-left:-342px; margin-top:-25px;" width="337" height="202" alt="" /></div>
+        <div class="shade">
+            <div class="div990">
+                <div  class="top-nav">{% primary_menu %}</div>
+                <div class="container" >
+                    <div class="col-l">
+                        <div class="btm-shade">
+                            <p><img src="/site_media/images/top.gif" /></p>
+                             <ul class="fclist">
+                                <li><a href="/belief-and-practices-aqeeda/">Belief and Practices ( Aqeeda )</a></li>
+                                <li><a href="/basic-principles/">Basic Principles</a></li>
+                                <li><a href="/islam-facts/">Islam Facts</a></li>
+								<li><a href="/dawah/">Da'wah</a></li>
+								<li><a href="/hadees/">Hadis</a></li>								
+								<li><a href="/society/">Society</a></li>
+								<li><a href="/islam-muslims/">Islam & Muslims</a></li>		
+								<li><a href="/muslim-women/">Muslim Women</a></li>
+								<li><a href="/role-models/">Role Models</a></li>
+								<li><a href="/discover-islam/">Discover Islam</a></li>
+								<li><a href="#">miscellaneous</a></li>
+							</ul>
+                        </div>
+                        <div>
+                            <ul class="donation">
+                                <li><a href="/donation/">Mosque Extension<br />Project<br /><br /></a></li>
+                            </ul>
+                        </div>
+						
+                    </div>
+                    <div class="col-c" >
+                        <h1 class="welcome">Welcome to Central Mosque Wembley</h1>
+                        <div class="boxtop"></div>
+                        <div class="content"><span style="display:inline-block; border:#d9c99b solid 2px; float:left; margin-right:13px; margin-bottom:10px;"><img src="/site_media/images/welcome-img.jpg" style="border:#FFF solid 2px;" width="136" height="93" alt="" /></span>
+                          {% block main %}{% endblock %}
+                        </div>
+                        <div style="background:url(/site_media/images/shade.gif) repeat-x bottom;  height:15px; overflow:hidden;  width:422px"></div>
+                        <div class="content1"><h3>News &amp; Events</h3>
+							<img src="/site_media/images/thumb1.jpg" />Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the industry's standard dummy text ever.<br /><br />
+							<img src="/site_media/images/thumb2.jpg" />Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the industry's standard dummy text ever.<br /><br />
+							<img src="/site_media/images/thumb3.jpg" />Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the industry's standard dummy text ever.<br /><br />
+						</div>
+                    </div>
+                    <div class="col-r">
+                        <div class="btm-shade">
+                            <p><img src="/site_media/images/prayer.gif" /></p>
+                            <ul class="prayer">
+                                 <li><span></span><b><strong>Begins</strong></b><em><strong>Jama'ah</strong></em></li>
+                                <li><span>Fajr</span><b>5:36</b><em>6:15</em></li>
+                                <li><span>Zuhr</span><b>11:50</b><em>1:00</em></li>
+                                <li><span>Asr </span><b>2:27</b><em>3:00</em></li>
+                                <li><span>Maghrib</span><b>4:18</b><em>4:18</em></li>
+                                <li><span>Isha</span><b>5:47</b><em>8:00</em></li>
+                                <li><span>Jumaa'h 1</span><b>-</b><em>1:00</em></li>
+                                <li><span>Jumaa'h 2</span><b>-</b><em>1:25</em></li>
+                                <li class="prayer-full"><a href="/site_media/uploads/NOV10.doc" >» View Full Timetable</a></li>
+                            </ul>
+                        </div>
+                        <div class="btm-shade">
+                             <ul class="library">
+                                <li><a href="/articles/">» Articles</a></li>
+                                <li><a href="/audio/">» Audio</a></li>
+                                <li><a href="/videos/">» Videos</a></li>
+								<li><a href="/books/">» Books</a></li>
+                            </ul>
+                        </div>
+                       <div class="madresa"><a href="/madarsa/">madresa</a></div>
+                        <div class="photogallery"> <a href="#">» Photogallery</a> </div>
+						 
+                    </div>
+                </div>
+                <div class="footer"><a href="#">Home</a> | <a href="history.html">History</a> | <a href="#">Services</a> | <a href="#">Madarsa</a> | <a href="audio.html">Audio Library</a> | <a href="#">Events</a> | <a href="#">Donation</a> | <a href="contactus.html">Contact Us</a><br />
+                    © Copyright Central Mosque Wembley, 2010. All Rights Reserved.</div>
+            </div>
+        </div>
+        <div class="shadeB"></div>
+    </div><!--
+{% editable_loader %}
+{% load_settings GOOGLE_ANALYTICS_ID %}
+{% if GOOGLE_ANALYTICS_ID %}
+<script> 
+var _gaq = [['_setAccount', '{{ GOOGLE_ANALYTICS_ID }}'], ['_trackPageview']];
+(function(d, t) {
+var g = d.createElement(t),
+    s = d.getElementsByTagName(t)[0];
+g.async = true;
+g.src = '//www.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g, s);
+})(document, 'script');
+</script>
+{% endif %}-->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3710726-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</center>
+</body>
+</html>
